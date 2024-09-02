@@ -31,10 +31,15 @@
    **Optional:**
  
    `e_mail1 [string]` - email for person 1.
+
    `e_mail2 [string]` - email for person 2.
+   
    `home_phone [string]` - home phone number.
+   
    `bus_phone [string]` - business phone number.
+   
    `mobile_phone1 [string]` - mobile phone number for person 1.
+   
    `mobile_phone2 [string]` - mobile phone number for person 2.
 
    **Conditional:**
