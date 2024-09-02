@@ -161,7 +161,7 @@
 * **Sample GET:** (With URL Encoded `token`)
 
   ```HTML
-    http://api.tasscloud.com.au/tassweb/api/?method=getStudentUDAreaSetup&appcode=DEMOSD&company=10&v=2&token=l1D8owEn111IHcXLRwXTB0oU2GX6rj%2BISqa9zXA8We3J3mwgjW5pdUvFK3%2FIZ4mJ4bMyfKTmEoup%2B3tTE9GeLQ%3D%3D
+    http://api.tasscloud.com.au/tassweb/api/?method=getStudentUDAreaSetup&appcode=DEMO&company=10&v=2&token=l1D8owEn111IHcXLRwXTB0oU2GX6rj%2BISqa9zXA8We3J3mwgjW5pdUvFK3%2FIZ4mJ4bMyfKTmEoup%2B3tTE9GeLQ%3D%3D
   ```
   
 * **Sample POST:**
@@ -169,7 +169,7 @@
   ```HTML
     <form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
        <input type="hidden" name="method" value="getStudentUDAreaSetup">
-       <input type="hidden" name="appcode" value="DEMOSD">
+       <input type="hidden" name="appcode" value="DEMO">
        <input type="hidden" name="company" value="10">
        <input type="hidden" name="v" value="2">
        <textarea name="token">l1D8owEn111IHcXLRwXTB0oU2GX6rj+ISqa9zXA8We3J3mwgjW5pdUvFK3/IZ4mJ4bMyfKTmEoup+3tTE9GeLQ==</textarea>
