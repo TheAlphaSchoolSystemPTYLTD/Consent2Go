@@ -2,7 +2,7 @@
 ----
 	Returns an array of structured Student data comprising general, school, and other school details in JSON format.
 
-* **Version HIstory:**
+* **Version History:**
 
   TASS v59.10 - New endpoint for Consent2Go integration.
 
