@@ -1,6 +1,6 @@
 **getCommunicationRulesDetails**
 ----
-  Returns an array of structured Communication Rules data including student code and addresses in JSON format.
+	Returns an array of structured Communication Rules data including student code and addresses in JSON format.
     
 * **Version History:**
 
