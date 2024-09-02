@@ -92,7 +92,7 @@
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-	https://api.tassweb.com.au/tassweb/api/?appcode=DEMOEH&v=2&method=GetEmployeeUDSetup&token=4DLTBTzaOM7gFofZXpmEQ96oPie%2BNHUnJK1yZ1ZzQ%2Bv%2Bp5M7d8Xs4uvKdS3%2FUCrs&company=10
+	https://api.tassweb.com.au/tassweb/api/?appcode=DEMO&v=2&method=GetEmployeeUDSetup&token=4DLTBTzaOM7gFofZXpmEQ96oPie%2BNHUnJK1yZ1ZzQ%2Bv%2Bp5M7d8Xs4uvKdS3%2FUCrs&company=10
 	```
   
 * **Sample POST:**
@@ -100,7 +100,7 @@
 	```HTML
 	<form id="postForm" name="postForm" method="POST" action="https://api.tassweb.com.au/tassweb/api/">
 		<input type="hidden" name="method" value="GetEmployeeUDSetup">
-		<input type="hidden" name="appcode" value="DEMOEH">
+		<input type="hidden" name="appcode" value="DEMO">
 		<input type="hidden" name="company" value="10">
 		<input type="hidden" name="v" value="2">
 		<textarea name="token">4DLTBTzaOM7gFofZXpmEQ96oPie+NHUnJK1yZ1ZzQ+v+p5M7d8Xs4uvKdS3UCrs</textarea>
