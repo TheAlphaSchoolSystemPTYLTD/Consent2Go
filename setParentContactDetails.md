@@ -38,9 +38,9 @@
    
    `bus_phone [string]` - business phone number.
    
-   `mobile_phone1 [string]` - mobile phone number for person 1.
+   `mobile1 [string]` - mobile phone number for person 1.
    
-   `mobile_phone2 [string]` - mobile phone number for person 2.
+   `mobile2 [string]` - mobile phone number for person 2.
 
    **Conditional:**
 
@@ -92,8 +92,8 @@
     "e_mail2": "xyz2@test.com",
     "home_phone": "5555 5555",
     "bus_phone": "5555 5555",
-    "mobile_phone1": "0499 999 999",
-    "mobile_phone2": "0499 999 999",
+    "mobile1": "0499 999 999",
+    "mobile2": "0499 999 999",
   }
   ```
 
