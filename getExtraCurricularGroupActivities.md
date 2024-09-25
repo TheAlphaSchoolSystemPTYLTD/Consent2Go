@@ -1,6 +1,6 @@
 **getExtraCurricularGroupActivities**
 ----
-	Returns an array of structured extra curricular group activity data.
+	Returns an array of structured extra curricular group activity data for current year and semester.
     
 * **Version History:**
 
