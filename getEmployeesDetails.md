@@ -25,17 +25,12 @@
     Parameter Name | Type | Mandatory | Notes
     --- | :---: | :---: | --- |
     date | date | Yes | Termination Date. Results will omit employee records that finished before this date.
-    thumbnail | boolean | Conditional |  Must be 'true' or 'false' for whether or not to employee thumbnail photo. Only valid where `includephoto` is 'true'.
     code | string | No | Employee code. Leave blank or omit from parameters and all employees will be returned. Provide a single employee code or a comma delimited list of employee codes to return just those requested.
-    includephoto | boolean | No | Must be 'true' or 'false' for whether returning employee photo.
-    update_on | date | No | Return employees with a Last Updated date that were updated on this date.
     update_on_to | date | No | Return employees with a Last Updated date up until the date passed in.
     update_on_from | date | No | Return employees with a Last Updated date from the date in question to the current date or to the `update_on_to` date (if passed in).
 
     <i>Using both `update_on_from` and `update_on_to` will return employees with a Last Updated date between the date range.</i>
 
-    <i> **!>** Use `update_on` to return records from a particular date OR `update_on_from` and `update_on_to` to specify a date range.</i>
-  
 * **Success Response:**
 
     ```javascript
