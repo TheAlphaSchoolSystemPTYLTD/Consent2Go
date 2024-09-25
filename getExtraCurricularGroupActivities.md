@@ -49,7 +49,7 @@
           "ecgroup_id": "5592E242-B90C-C616-6C7C808BA48240CB",
           "lev_desc": "'A' Grade",
           "med_ack_flg": "N",
-          "signupstart_datae": "2023-11-06 00:00:00.0",
+          "signupstart_date": "2023-11-06 00:00:00.0",
           "signupend_date": "2023-11-10 00:00:00.0",
           "type_code": "F",
           "type_desc": "Music"
