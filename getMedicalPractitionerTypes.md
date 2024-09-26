@@ -37,10 +37,11 @@
 * **Success Response:**
 
     ```javascript
-    "practitioner_types": [
+    "data": [
       {
-        "ptype_code": "001",
-        "ptype_desc": "Dentist"
+        "code": "001",
+        "desc": "Dentist",
+    	"plflag": "N"
       }
     ]
     ```
