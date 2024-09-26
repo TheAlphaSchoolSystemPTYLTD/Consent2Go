@@ -41,7 +41,7 @@
       {
         "code": "001",
         "desc": "Dentist",
-    	"plflag": "N"
+        "plflag": "N"
       }
     ]
     ```
