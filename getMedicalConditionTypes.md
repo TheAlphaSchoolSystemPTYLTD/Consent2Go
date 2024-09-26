@@ -37,12 +37,31 @@
 * **Success Response:**
 
     ```javascript
-    "medical_condition_types": [
-      {
-        "mcond_code": "ACC",
-        "mcond_desc": "Accident",
-        "active_flg": "Y"
-      }
+    {
+    "data": [
+        {
+            "MCUD4_DESC": "",
+            "MCUD1_DESC": "Whick Leg ?",
+            "MCUD8_DESC": "",
+            "MCFORM_FLG": "N",
+            "VALUE": "ASL",
+            "DESC": "A Sore Leg",
+            "MCUD3_DESC": "",
+            "CODE": "ASL",
+            "ISR_FLG": "",
+            "MCUD6_DESC": "",
+            "MCUD10_DESC": "",
+            "MCOND_AFLG": "N",
+            "MCUD9_DESC": "",
+            "MCUD5_DESC": "",
+            "LABEL": "A Sore Leg",
+            "ACTIVE_FLG": "N",
+            "MCUD2_DESC": "Above the Knee ?",
+            "ISR_COMMENT": "",
+            "MCUD7_DESC": "",
+            "MCOND_PLFLG": "Y",
+            "ISR_SORT": ""
+        }
     ]
     ```
  
