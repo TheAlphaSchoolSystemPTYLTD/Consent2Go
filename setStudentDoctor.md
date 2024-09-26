@@ -29,6 +29,8 @@
    `ptype_code [string]` - use existing practitioner type code.
  
    `doct_name [string]` - practitioner name (30 characters maximum).
+   
+   `doct_phone [string]` - practitioner phone number (25 characters maximum).
 
    **Optional:**
  
