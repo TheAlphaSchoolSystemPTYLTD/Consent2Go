@@ -50,7 +50,7 @@
                         "medical_country":"AUSTRALIA",
                         "medical_addr2":"123 Smith Rd",
                         "medical_mob_phone2":"",
-                        "medical_addr3":"the bag end of nowhere",
+                        "medical_addr3":"",
                         "medical_post_code":4005,
                         "medical_bus_phone":"3201 1302",
                         "medical_mob_phone":"0427203657",
