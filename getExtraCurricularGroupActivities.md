@@ -26,9 +26,9 @@
    
    **Optional:**
 
-   `include_students [boolean]` - Include students in activity, default = true
+   `include_students [boolean]` - Include students in activity, default = false
 
-   `include_staff [boolean]` - Include staff allocated to activity, default = true
+   `include_staff [boolean]` - Include staff allocated to activity, default = false
  
    **Conditional:**
  
