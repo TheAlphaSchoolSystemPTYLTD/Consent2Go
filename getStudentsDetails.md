@@ -4,7 +4,7 @@
 
 * **Version History:**
 
-  TASS v59.10 - New endpoint for Consent2Go integration.
+  TASS v59.11 - New endpoint for Consent2Go integration.
 
 * **Version:**
 
