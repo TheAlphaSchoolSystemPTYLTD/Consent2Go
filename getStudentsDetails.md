@@ -34,7 +34,7 @@
 
 	`pc_tutor_group [string]` -  Tutor Group Code.
 
-	`class [string]` -  Student Class.
+	`form_class [string]` -  Student Class.
 
 	`year_group [string]` -  Numeric Year Group Value.
 
@@ -186,21 +186,21 @@
     `pc_tutor_group` not a valid tutor group
     ```javascript
     __invalid: {
-      "campus": "Invalid pc_tutor_group [pc_tutor_group]."
+      "pc_tutor_group": "Invalid pc_tutor_group [pc_tutor_group]."
     }
     ```
 
-    `class` not a valid class
+    `form_class` not a valid class
     ```javascript
     __invalid: {
-      "campus": "Invalid class [class]."
+      "form_class": "Invalid form class [class]."
     }
     ```
 
     `year_group` not a valid year group
     ```javascript
     __invalid: {
-      "campus": "Invalid year_group [year_group]."
+      "year_group": "Invalid year_group [year_group]."
     }
     ```
     
