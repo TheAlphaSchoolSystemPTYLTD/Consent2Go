@@ -71,7 +71,7 @@
   `par_code` not supplied
   ```javascript
   __invalid: {
-    "__msg": "par_code' IS REQUIRED."
+    "__msg": "'par_code' IS REQUIRED."
   }
   ```
 
@@ -85,10 +85,66 @@
   `add_num` not supplied
   ```javascript
   __invalid: {
-    "__msg": "add_num' IS REQUIRED."
+    "__msg": "'add_num' IS REQUIRED."
   }
   ```
-      
+
+  `home_phone` too large
+  ```javascript
+  __invalid: {
+    "__msg": "home_phone maximum size allowed is 30 characters."
+  }
+  ```
+
+  `bus_phone` too large
+  ```javascript
+  __invalid: {
+    "__msg": "bus_phone maximum size allowed is 30 characters."
+  }
+  ```
+
+  `mobile_phone1` too large
+  ```javascript
+  __invalid: {
+    "__msg": "mobile_phone1 maximum size allowed is 30 characters."
+  }
+  ```
+
+  `mobile_phone2` too large
+  ```javascript
+  __invalid: {
+    "__msg": "mobile2 maximum size allowed is 30 characters."
+  }
+  ```
+
+  `e_mail1` too large
+  ```javascript
+  __invalid: {
+    "__msg": "e_mail1 maximum size allowed is 140 characters."
+  }
+  ```
+
+  `e_mail1` invalid
+  ```javascript
+  __invalid: {
+    "__msg": "e_mail1 is invalid."
+  }
+  ```
+  
+  `e_mail2` too large
+  ```javascript
+  __invalid: {
+    "__msg": "e_mail2 maximum size allowed is 140 characters."
+  }
+  ```
+
+  `e_mail2` invalid
+  ```javascript
+  __invalid: {
+    "__msg": "e_mail2 is invalid."
+  }
+  ```
+    
 * **Sample Parameters:**
 
   ```javascript
