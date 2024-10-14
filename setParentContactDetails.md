@@ -75,13 +75,20 @@
   }
   ```
 
+  `par_code` is not valid
+  ```javascript
+  __invalid: {
+    "__msg": "Parent record not found."
+  }
+  ```
+
   `add_num` not supplied
   ```javascript
   __invalid: {
     "__msg": "add_num' IS REQUIRED."
   }
   ```
-    
+      
 * **Sample Parameters:**
 
   ```javascript
