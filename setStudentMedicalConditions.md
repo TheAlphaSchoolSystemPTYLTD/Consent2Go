@@ -74,7 +74,7 @@
 
   ```javascript
   {
-    "success":"You successfully saved Enrolled Student Medical Data.",
+    "success":"You successfully saved the student medical data.",
     "__tassversion":"01.054.4.000",
     "token":{
       "treat_text":"test note here",
@@ -149,31 +149,10 @@
   }
   ```
 
-  `stud_code` not a valid student code in table d3_enrolments
+  `stud_code` not a valid student code
   ```javascript
   __invalid: {
-    "stud_code": "Enrolled student not in staging table."
-  }
-  ```
-
-  `stud_code` not a valid student code in table studenrol
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student not in TASS."
-  }
-  ```
-
-  `stud_code` is a valid student code in table studenrol where canc_flg = "Y"
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student has been cancelled."
-  }
-  ```
-
-  `stud_code` is a valid student code in table studenrol where tran_sts = "T"
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student has been transferred to Current."
+    "stud_code": "Student not in TASS."
   }
   ```
 
