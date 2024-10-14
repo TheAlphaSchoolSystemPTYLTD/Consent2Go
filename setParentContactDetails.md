@@ -14,7 +14,7 @@
 
 * **Permission:**
 
-  Parent Accounts > Edit
+  Parent Records > Parents > Edit
 
 * **Method:**
 
