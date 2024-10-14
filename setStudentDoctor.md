@@ -24,7 +24,7 @@
 
    **Required:**
  
-   `stud_code [string]` - enrolled student code.
+   `stud_code [string]` - student code.
  
    `ptype_code [string]` - use existing practitioner type code.
  
@@ -44,7 +44,7 @@
 
     ```javascript
     {
-      "success":"You successfully saved Enrolled Student Doctor.",
+      "success":"You successfully saved the student doctor.",
       "__tassversion":"01.054.4.000",
       "token":{
         "stud_code":"0009130",
@@ -72,31 +72,10 @@
   }
   ```
 
-  `stud_code` not a valid student code in table d3_enrolments
+  `stud_code` not a valid student code
   ```javascript
   __invalid: {
-    "stud_code": "Enrolled student not in staging table."
-  }
-  ```
-
-  `stud_code` not a valid student code in table studenrol
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student not in TASS."
-  }
-  ```
-
-  `stud_code` is a valid student code in table studenrol where canc_flg = "Y"
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student has been cancelled."
-  }
-  ```
-
-  `stud_code` is a valid student code in table studenrol where tran_sts = "T"
-  ```javascript
-  __invalid: {
-    "stud_code": "Enrolled student has been transferred to Current."
+    "stud_code": "Student not in TASS."
   }
   ```
 
