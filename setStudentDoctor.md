@@ -29,11 +29,11 @@
    `ptype_code [string]` - use existing practitioner type code.
  
    `doct_name [string]` - practitioner name (30 characters maximum).
-   
-   `doct_phone [string]` - practitioner phone number (25 characters maximum).
 
    **Optional:**
  
+   `doct_phone [string]` - practitioner phone number (25 characters maximum).
+
    `prac_num [string]` - prac_num, when provided and an existing doctor found, program will edit the doctor with data provided, otherwise it will add a new doctor.
 
    **Conditional:**
