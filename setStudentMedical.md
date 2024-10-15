@@ -32,7 +32,7 @@
 
    `mud6-10_code [string]` - Medical UD code 6 - 10 (use code in Medical UD Setup)
 
-   `mud11-15_text [string]` - Medical UD text 11 - 15 (text no more than 200 charaters)
+   `mud11-15_text [string]` - Medical UD text 11 - 15 (text no more than 20 charaters)
 
    `swim_code [string]` - Use existing swim_code
 
@@ -92,13 +92,6 @@
   ```
 
   `mud6-10_code` is not a valid UD Code
-  ```javascript
-  __invalid: {
-    "[mud6-10_code]": "UD Code '[mud6-10_code]' is not a valid UD Code."
-  }
-  ```
-
-  `mud11-15_text` Must be "Y" or "N"
   ```javascript
   __invalid: {
     "[mud6-10_code]": "UD Code '[mud6-10_code]' is not a valid UD Code."
