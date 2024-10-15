@@ -1,6 +1,6 @@
 **setStudentMedicalConditions**
 ----
-	Returns "success" and a count of updated and/or failed student medical conditions record(s), or a structure of invalid validations messages belonging to student medical conditions record(s).
+	Returns "success" or error message for failed update.
   
 * **Version History:**
 
