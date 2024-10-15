@@ -1,6 +1,6 @@
 **setStudentMedical**
 ----
-	Returns "success" and a count of updated and/or failed medical record(s), or a structure of invalid validations messages belonging to medical record(s).
+	Returns "success" or error message for failed update.
   
 * **Version History:**
 
